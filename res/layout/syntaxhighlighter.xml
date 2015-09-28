@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/javaCodeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="568dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="true"
+        android:scrollbars="horizontal|vertical" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+    	android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonTest1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testButtonHandler"
+            android:text="@string/test1" />
+
+        <Button
+            android:id="@+id/buttonTest2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testButtonHandler"
+            android:text="@string/test2" />
+
+        <Button
+            android:id="@+id/buttonTest3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testButtonHandler"
+            android:text="@string/test3" />
+
+        <Button
+            android:id="@+id/buttonTest4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testButtonHandler"
+            android:text="@string/test4" />
+
+        <Button
+            android:id="@+id/buttonTest5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testButtonHandler"
+            android:text="@string/test5" />
+
+        <Button
+            android:id="@+id/buttonTest6"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testButtonHandler"
+            android:text="@string/test6" />
+
+    </LinearLayout>
+
+</LinearLayout>
